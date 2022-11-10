@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style> .blink {
+        animation: blinker 1.5s linear infinite;
+        color: red;
+        font-family: sans-serif;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }</style>
+</head>
+<form action="" method="post">
+<body style="background-color:lavender;">
+    <h2 style="Color:rgb(216, 78, 78);" ><center>Student Registration Form</center></h2>
+    <marquee class="blink" behaviour="scroll" width="100%"  direction="right" height="50px" scrollamount="7" >You can Register here</marquee>
+    <div>
+        <form class="Register" >
+            <div class="Name"> 
+            <label for="Name"> Name </label><br>
+            <input type="Text" id="Name" name="name" maxlength="20" placeholder="Enter your name" required>
+            </div>
+            <div class="Age"> 
+               <label for="Age"> Age </label><br>
+                <input type="number" id="Age" name="age" maxlength="3" placeholder="Enter your Age" required>
+                </div>
+                <div class="Mobileno"> 
+                    <label for="Mobileno">PhoneNo</label><br>
+                    <input type="tel" id="Mobileno" name="Mobileno" pattern="[0-9]{10}" placeholder="Enter your PhoneNo" required>
+                    </div>
+                    <div class="Dob"> 
+                        <label for="DOB">Date of Birth</label><br>
+                        <input type="date" id="DOB" name="DOB"  placeholder="Enter your DOB" required>
+                        </div>
+                        <div class="credential"> 
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" maxlength="10" pattern="[A-Za-z][0-9][~!@#$%^&*()_]" placeholder="Enter your password" required><br>
+                            </div>
+                            <div class="credential1"> 
+                                <label for="repassword">Re-type Password</label><br>
+                                <input type="password" id="password" name="password" maxlength="10" pattern="[A-Za-z][0-9][~!@#$%^&*()_]"  placeholder="Enter your password again" required><br>
+                               </div>
+                                 <input type="submit"onclick="alert('You have successfully registered')" value="Submit" > 
+                                 <input type="reset"  value="Reset">
+                                </form>
+        
+        
+        
+        
+        
+        
+        
+        
+        </form>
+    </div>
+</body>
+</html>

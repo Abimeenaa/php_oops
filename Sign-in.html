@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <style>  .blink {
+        animation: blinker 1.5s linear infinite;
+        color: red;
+        font-family: sans-serif;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }</style>
+</head>
+<form action="" method="post"></form>
+    <body style="background-color:rgb(238, 124, 197);">
+        <h2 style="Color:rgb(216, 78, 78);" ><center>Sign-in Page</center></h2>
+        <marquee class="blink" behaviour="scroll" width="100%"  direction="right" height="50px" scrollamount="7" >You can Sign-in here</marquee>
+        <div>
+            <form class="Sign-in" >
+                <div class="Name"> 
+                <label for="Name"> Name </label><br>
+                <input type="Text" id="Name" name="name" maxlength="20" placeholder="Enter your name" required>
+                </div>
+                <div class="credential"> 
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" maxlength="10" pattern="[A-Za-z][0-9][~!@#$%^&*()_]" placeholder="Enter your password" required><br>
+                    </div>
+</body>
+</html>
