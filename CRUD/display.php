@@ -1,4 +1,4 @@
-
+//Displaying the employee details
 
 <?php 
 include"connection.php"
@@ -6,18 +6,18 @@ include"connection.php"
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
+    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-        <!-- Bootstrap CSS -->
+      
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
-        <!-- <link rel="stylesheet" type="text/css" href="register.css"> -->
+        
         <title>Display page</title>
-        <!-- <marquee class="blink" behaviour="scroll" width="100%"  direction="right" height="30px" scrollamount="7" href="login.css" >You can login here</marquee> -->
+        
     </head>
 <body style=" background: linear-gradient(to top left, #99ffcc 0%, #9999ff 100%); height: 100vh; "> 
-<!-- <div class="d-flex align-items-center height:100vh;"> -->
+
 <div class="container-fluid"> 
 <div class="d-flex justify-content-center">
 <div class="col-sm-10">
