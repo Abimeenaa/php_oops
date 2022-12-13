@@ -15,7 +15,7 @@ $row=mysqli_fetch_assoc($result);
 if(isset($_POST['submit'])){
      $name=$_POST['name'];
      $email=$_POST['email'];
-    //  $dob=date('Y-m-d',strtotime($_POST['dateofbirth']));
+   
     $phone=$_POST['phone'];
     $password=$_POST['password'];
     $address=$_POST['address'];
@@ -53,11 +53,11 @@ if(isset($_POST['submit'])){
 <body style="  background: linear-gradient(to top left, #99ffcc 0%, #9999ff 100%); height: 100vh; "> 
 <div class="container-fluid  "> 
 <div class="col-sm-10">
-    <!-- div container fluid and col-xs-4 is used only one time  -->
+   
 <form  method="post">
     <div class="container-fluid ">  
   <h1 style="text-align:center; color:Black;">Employee Details Updation</h1></div>
-    <!-- <marquee class="blink" behaviour="scroll" width="100%"  direction="right" height="50px" scrollamount="7" >You can Register here</marquee> -->
+   
     </div>
     </div>
     <div class="container-fluid my-5"> 
@@ -84,10 +84,7 @@ if(isset($_POST['submit'])){
                             <label for="password">Password</label><br>
                             <input type="text" id="password" name="password" maxlength="10" class="form-control" value="<?php echo $password; ?>"  placeholder="Enter your password" autocomplete = "off" />
                             </div>
-                          <!-- <div class="form-group"> 
-                                <label for="repassword">Re-type Password</label><br><input type="submit" onclick="alert('Your details are successfully saved')" value="Submit" >
-                                <input type="password" id="password" name="password" maxlength="15" pattern="[A-Za-z][0-9][~!@#$%^&*()_.]"  placeholder="Enter your password again" required><br>
-                            </div> -->
+                       
 
                             <div class="form-group">
                               <label for="Address">Address</label><br>
